@@ -1,0 +1,379 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;500&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url('./images/background_burger_01.jpg');
+    height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    background-size: cover;
+
+    
+
+}
+.header{
+  width: 1440px;
+  margin: 0 auto;
+  padding: 35px;
+  
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 43px;
+    display: flex;
+    align-items: center;
+    
+    
+     
+}
+.burger_logo_text{
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.motorcycle{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.motorcycle_img{
+    margin-right: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    
+}
+.menu{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+.li_text{
+    margin-right: 75px;
+}
+.li_text:hover{
+   cursor: pointer;
+   
+   
+}
+.text{
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+   
+}
+.text_border{
+    border-style: dashed;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    width: 385px;
+   
+}
+.first{
+    font-size: 115px;
+ 
+    text-shadow: 4px 3px 2px rgb(235, 232, 232);
+}
+.second{
+    font-size: 65px;
+    text-shadow: 4px 3px 2px rgb(235, 232, 232);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    
+}
+.product{
+    margin-right: 45px;
+    margin-top: 65px;
+}
+ 
+
+/*section banners start*/
+
+.banner_images{
+    display: flex;
+    width: 1440px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 70px;
+   
+}
+.images_one{
+    position: relative;
+}
+.img1,.img2{
+    position: relative;
+}
+.banner_text_all{
+    position: absolute;
+    top: 40px;
+    left:40px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffff;
+ 
+}
+.banner_text_first{
+font-size: 22px;
+}
+.banner_text_second{
+font-size: 36px;
+}
+#wrapped{
+    width: 150px;
+}
+.images_two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 424px;
+}
+
+/*section choose start*/
+
+.choose{
+    color: #3d2514;
+   
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+.yellow{
+    width: 200px;
+    background-color: #ffc045;
+    padding: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 22px;
+    margin: 0 auto;
+  
+}
+
+
+
+.topic{
+    font-size: 45px;
+    margin:25px auto;
+    font-family: 'Alfa Slab One', cursive;
+}
+.description{
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+.burgers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.burgers_topic{
+    font-size: 32px;
+}
+.burgers_description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+.burgers_button{
+    background-color: #bf2222;
+    padding: 13px;
+    width: 180px;
+    color: #ffff;
+    font-size: 22px;
+    text-align: center;
+  
+}
+.burgers_button:hover{
+    background-color: #d84343;
+    transition: .5s;
+    cursor: pointer;
+}
+.burger1,.burger3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
+}
+.burger2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.reserve_text{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 32px;
+   
+    width: 100%;
+
+}
+
+.text_form{
+    margin-top: 70px;
+padding: 60px;
+    text-align: center;
+}
+input{
+    padding-left: 75px;
+    margin-bottom: 25px;
+    height: 55px;
+    border: 1px solid #bababa;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.inputs-1{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+}
+.inputs-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#form_button{
+    width: 370px;
+}
+
+.reservation{
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    background-image: url('./images/bg_02.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.burger_input_form{
+    width: 370px;
+    margin-right: 25px;
+    
+
+}
+.absolute_text{
+    position: absolute;
+    font-size: 20px;
+    top: 7%;
+    left: 6%;
+ 
+}
+.text1{
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 6%;
+}
+.text2{
+    position: absolute;
+    font-size: 20px;
+    top: 73%;
+    left: 6%;
+}
+.text3{
+    position: absolute;
+    font-size: 20px;
+    top: 7%;
+    left: 6%;
+}
+.text4{
+    position: absolute;
+    font-size: 20px;
+    top: 40%;
+    left: 6%;
+}
+
+.back{
+   background-image: url('./images/footer_bg_09.jpg');
+   background-repeat: no-repeat;
+   margin: 0 auto;
+   width: 1440px;
+   max-width: 100%;
+   color: #ffff;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+justify-content: space-around;
+  
+   padding: 50px;
+   font-family: 'Montserrat', sans-serif;
+   height: 525px;
+   margin-bottom: 30px;
+
+}
+.footer_logo{
+    align-self: flex-start;
+}
+.footer_middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+  
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    
+   
+  }
+.footer-company{
+  align-self: flex-start;
+}
+.footer-text{
+    width: 40%;
+}
+.footer-icon{
+    
+    font-family: 'Bebas Neue', cursive;
+    
+}
+i{
+    margin-right: 15px;
+   
+}
+.icon_address{
+    margin-bottom: 20px;
+    margin-right: 15px;
+}

@@ -6,6 +6,10 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
 }
 
 .main{
@@ -14,12 +18,10 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 17px;
     background-size: cover;
-
-    
-
 }
+
 .header{
-  width: 1440px;
+  width: 100%;
   margin: 0 auto;
   padding: 35px;
   
@@ -46,6 +48,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    
 }
 .motorcycle_img{
     margin-right: 10px;
@@ -376,4 +379,221 @@ i{
 .icon_address{
     margin-bottom: 20px;
     margin-right: 15px;
+}
+
+
+@media screen and (max-width:1210px) { 
+    
+    .banner_images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+    .images_two{
+        margin-top: 30px;
+    }
+
+   .header {
+       width: 1200px;
+       margin: 0 auto;
+   }
+ .navbar{
+     margin-right: 50px;
+ }
+ }
+
+ @media screen and (max-width:1000px) { 
+ 
+     .burgers{
+         display: flex;
+         flex-direction: column;
+     }
+     .burger2,.burger3{
+         margin-top: 40px;
+     }
+     .navbar{
+        margin-right: 190px;
+    }
+
+
+
+ }
+
+@media screen and (max-width:875px) { 
+.header{
+    max-width: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+ .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+     
+ }
+
+ .navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+     
+ }
+ .container{
+     display: flex;
+     flex-direction: column-reverse;
+     
+     align-items: center;
+     justify-content: center;
+     width: 60%;
+ }
+ .main{
+     height: 1200px;
+     margin-bottom: 20px;
+ }
+ .text{
+     margin-top: 80px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+.menu{
+    width: 100%;
+    margin-right: 0px;
+}
+
+}
+@media screen and (max-width:430px) { 
+
+    .top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .text{
+        width: 420px;
+        
+    }
+
+    .first{
+        font-size: 80px;
+    }
+    .second{
+        font-size: 40px;
+    }
+    .product_image{
+        width: 420px;
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        height: 1000px;
+    }
+    body{
+        width: 420px;
+    }
+    .li_text{
+        margin-right: 30px;
+    }
+    .banner_text_first{
+        font-size: 14px;
+
+    }
+    .banner_text_second{
+font-size: 31px;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    .reservation{
+        margin-bottom: 140px;
+    }
+    .footer_logo{
+        width: 420px;
+      
+    }
+    .footer_middle{
+        display: flex;
+        flex-direction: column;
+    }
+    .back{
+      width: 400px;
+      height: 800px;
+    }
+    #footer_burger_logo{
+        width: 70%;
+        height: auto;
+    }
+    .footer-bottom{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .footer-text{
+        
+        width: 80%;
+        margin-bottom: 80px;
+    }
+    .images_two{
+        
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:375px) { 
+ .main{
+     height: 920px;
+ }
+ .text_border{
+     width: 50%;
+ }
+    .first{
+        font-size: 50px;
+        margin:20px auto
+    }
+    .second{
+        font-size: 25px;
+    }
+.product_image{
+    max-width: 320px;
+}
+
+body{
+    max-width: 375px;
+    margin: 0 auto;
+}
+.images_two{
+        
+    justify-content: space-evenly;
+}
+.banner_text_first{
+    font-size: 14px;
+
+}
+.banner_text_second{
+font-size: 18px;
+}
+.banner_text_all{
+    top: 25px;
+    left:25px;
+}
+
 }

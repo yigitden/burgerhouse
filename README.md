@@ -7,5 +7,5 @@ Live Demo : https://yigitden.github.io/burgerhouse/
 
 # Screen Capture
 
-![Screen Capture](./images/screencapture.png)
+![Screen Capture](./images/screencapture-burger.png)
 
